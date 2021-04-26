@@ -1,0 +1,15 @@
+
+.footer_title {
+    display: flex;
+    flex-flow: column;
+    background: #000;
+}
+
+.title_logo {
+    width: 20vw;
+}
+
+.title_copy {
+    width: 4vw;
+    color: #fff;
+}
