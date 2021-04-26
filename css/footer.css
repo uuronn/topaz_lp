@@ -1,8 +1,11 @@
-
+.footer {
+    background: #000;
+    width: 100%;
+}
 .footer_title {
     display: flex;
     flex-flow: column;
-    background: #000;
+    height: 300px;
 }
 
 .title_logo {
@@ -10,6 +13,6 @@
 }
 
 .title_copy {
-    width: 4vw;
+    font-size: 2px;
     color: #fff;
 }
