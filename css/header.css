@@ -4,32 +4,48 @@
 }
 
 .header_title {
-    display: flex;
     padding: 12px 0px 80px 24px;
 }
 
 .header_contents {
     display: flex;
-    
 }
 
 .header_topaz {
     text-align: center;
-    padding: 0px 17vw 30px 9vw;
+    padding: 0px 15vw 0px 7vw;
+}
+
+.header_topaz-text {
+    padding: 40px 0 ;
+    text-align: left;
+    color: #fff;
+    font-size: 18px;
+    width: 380px;
 }
 
 .header_right-img {
-    margin: auto -3% auto 0;
+    margin: auto 0;
+    display: block;
 }
 
-.header_profile-img {
+.header_profile-img-pc {
+    display: block;
     width: 54vw;
     min-width: 600px;
 }
 
+.header_calorie-img-sp {
+    display: none;
+}
+
+.header_profile-img-sp {
+    display: none;
+}
+
 
 .header_bottom-arrow {
-    padding-top: 30px;
+    padding-top: 100px;
     text-align: center;
 }
 
