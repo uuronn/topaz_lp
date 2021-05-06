@@ -1,17 +1,18 @@
 .content {
     width: 78vw;
     margin: 0 auto;
-    background: red;
     overflow: hidden;
 }
 
 .content_top-box:nth-child(1) {
     display: flex;
     flex-direction: row-reverse;
+    padding: 60px 0;
 }
 
 .content_top-box:nth-child(2) {
     display: flex;
+    padding: 0 0 60px 0;
 }
 
 .top_box-text {
@@ -22,12 +23,14 @@
     width: 14vw;
 }
 
-.content_top-img-box:nth-child(1) {
-    
+.content_top-img-box {
+    margin: auto 0;
 }
 
-.content_top-img-box:nth-child(2) {
-    
+.content_top-img {
+    width: 20vw;
+    min-width: 170px;
+    margin: 0 6vw;
 }
 
 .content_top-img {
@@ -36,6 +39,7 @@
 
 .content_button {
     text-align: center;
+    padding-top: 50px;
 }
 
 
@@ -45,46 +49,83 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 60px 0;
 }
 
-
-
-.image_box {
+.opus_card {
+    width: 320px;
+    height: 320px;
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.opus_card-link {
+
+}
+
+.opus_card-img {
+    width: 280px;
+    height: 280px;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.opus_card-img:hover {
+    width: 250px;
+    height: 250px;
+    transition: 1s;
 }
 
 .section_opus-title {
     text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .content {
-    background: #fff;
-    width: 100%;
-    
-}
-.content_talk_img {
-    
+.section_opus-title::after {
+    width: 110px;
+    height: 6px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    background: #2BA5BF;
+    content: "";
+    border-radius: 50px;
 }
 
-@media screen and (max-width: 480px) {
-    .content_talk_img {
-        width: 50px;
-        height: 50px;
-    }
-} */
+
+
+
+
+.content_bottom {
+    display:flex;
+    padding: 60px 0;
+}
+
+
+.image_box {
+    display: flex;
+    
+}
+
+.image_card {
+    width: 300px;
+    height: 170px;
+}
+
+.content_bottom-button:nth-child(1) {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    align-items: left;
+}
+
+.content_bottom-button:nth-child(2) {
+    display:flex;
+    width: 30px;
+    height: 30px;
+    align-items: right;
+}
+
+
+@media screen and (min-width: 810px)

@@ -1,0 +1,10 @@
+.header_top-menu {
+    display: flex;
+    position: fixed;
+    
+    
+}
+
+.top_menu {
+    padding: 12px 0 0 24px;
+}
