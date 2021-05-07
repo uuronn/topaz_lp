@@ -42,13 +42,10 @@
     padding-top: 50px;
 }
 
-
-
-
 .opus_box {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 60px 0;
 }
 
@@ -93,40 +90,44 @@
     border-radius: 50px;
 }
 
-
-
-
-
 .content_bottom {
-    display:flex;
     padding: 60px 0;
 }
 
 
 .image_box {
     display: flex;
-    
+    justify-content: space-between;
 }
 
 .image_card {
-    width: 300px;
-    height: 170px;
+
 }
 
-.content_bottom-button:nth-child(1) {
-    display: flex;
-    width: 30px;
-    height: 30px;
-    align-items: left;
+.image_card-bottom {
+
 }
 
-.content_bottom-button:nth-child(2) {
-    display:flex;
-    width: 30px;
-    height: 30px;
-    align-items: right;
+
+button {
+    position: absolute;
+    color: red;
+}
+/* 左矢印のボタン */
+.bottom_button-left {
+    left: 0;
+    bottom: 20px;
+}
+/* 右矢印のボタン */
+.bottom_button-right {
+    right: 0;
+    bottom: 20px;
 }
 
+@media screen and (max-width: 830px) {
+    .content {
+        
+    }
 
 @media screen and (min-width: 830px) {
     
