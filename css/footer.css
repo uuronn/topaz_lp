@@ -24,8 +24,7 @@
 }
 
 @media screen and (max-width: 830px) {
-.title_logo {
-    width: 250px;
-    padding: 0 0 18px 0;
-}
+    .title_logo {
+        padding: 0 0 14px 0;
+    }
 }

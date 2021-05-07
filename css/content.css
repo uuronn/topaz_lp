@@ -129,20 +129,6 @@ button {
         
     }
 
-    .opus_box{
-        justify-content: center;
-        padding: 120px 0;
-    }
-
-    .opus_card-img {
-        
-    }
-
-    .content_bottom-button:nth-child(1) {
-    display: none;
-}
-
-    .content_bottom-button:nth-child(2) {
-    display: none;
-}
+@media screen and (min-width: 830px) {
+    
 }
