@@ -1,5 +1,5 @@
 .content {
-    width: 78vw;
+    width: 80vw;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -57,10 +57,6 @@
     justify-content: center;
 }
 
-.opus_card-link {
-
-}
-
 .opus_card-img {
     width: 280px;
     height: 280px;
@@ -94,10 +90,15 @@
     padding: 60px 0;
 }
 
-
 .image_box {
     display: flex;
     justify-content: space-between;
+}
+
+.image {
+    min-width: 300px;
+    min-height: 170px;
+    padding: 1vw;
 }
 
 .image_card {
@@ -112,6 +113,7 @@
 button {
     position: absolute;
     color: red;
+    font-size: 40px;
 }
 /* 左矢印のボタン */
 .bottom_button-left {
@@ -126,9 +128,18 @@ button {
 
 @media screen and (max-width: 830px) {
     .content {
-        
+        width: 95vw;
+        margin: 0 auto;
+        overflow: hidden;
     }
-
-@media screen and (min-width: 830px) {
-    
+    .opus_card {
+        width: 80vw;
+        height: 80vw;
+        margin: 30px;
 }
+
+    .opus_card-img {
+        width: 80vw;
+        height: 80vw;
+}
+    }
