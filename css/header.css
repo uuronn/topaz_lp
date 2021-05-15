@@ -24,6 +24,29 @@
     width: 380px;
 }
 
+.topaz_button-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 100px 0 100px 100px;
+    width: 200px;
+    height: 40px;
+    background: #fff;
+    text-decoration: none;
+}
+
+.topaz_button-link-text {
+    background: #29A3BF;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+
+.topaz_span {
+    font-size: 30px;
+}
+
 .header_right-img {
     margin: auto 0;
     display: block;
