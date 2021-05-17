@@ -1,8 +1,7 @@
 .header_top-menu {
     display: flex;
     position: fixed;
-    transition: 3s;
-    
+    z-index: 1;
 }
 
 .top_menu {
