@@ -7,9 +7,6 @@
 
 .header_title {
     padding: 12px 0 0 24px;
-    position: absolute;
-    z-index: 4;
-    background: red;
 }
 
 .header_contents {
@@ -83,10 +80,24 @@
 
 .header_calorie-img-sp {
     display: none;
+    transform: rotate( -10deg );
+    position: absolute;
+    width: 228px;
+    height: 128px;
+    top: 50px;
+    right: 0;
+    z-index: 1;
 }
 
 .header_profile-img-sp {
     display: none;
+    transform: rotate( 30deg );
+    position: absolute;
+    width: 116px;
+    height: 236px;
+    bottom: 50px;
+    left: -30px;
+    z-index: 1;
 }
 
 

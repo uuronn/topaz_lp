@@ -2,10 +2,36 @@
     display: flex;
     position: fixed;
     z-index: 1;
+    opacity: 1;
+    transition: 1s;
+    animation: fadeIn 1s;
 }
 
 .top_menu {
     padding: 12px 0 0 24px;
+}
+
+.top_menu-logo {
+    
+}
+
+.top_menu-button {
+    display: flex;
+    align-items: center;
+}
+
+.display {
+    display: none;
+}
+
+@keyframes fadeIn {
+    from {
+        width: 300px;
+    }
+    
+    to {
+        width: 900px;
+    }
 }
 
 @media screen and (max-width: 830px) {
